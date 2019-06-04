@@ -10,7 +10,7 @@ dirpath=fullfile('Pages');
 imgname='page-14.ppm';
 % imgname='page-15.ppm';
 % imgname='page-16.ppm';
-
+ 
 imgfile=fullfile(dirpath,imgname)
 I=imread(imgfile);
 imshow(I);
@@ -38,4 +38,3 @@ obj.show_short_lines;
 
 
 obj.play_lines(3);
-
